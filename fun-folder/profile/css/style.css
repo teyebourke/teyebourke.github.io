@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(226, 230, 200);
+}
+
+#pink-background {
+    background-color: #FFCCCC;
+}
+
+.highlighter {
+    background-color: yellow;
+}
+
+div p {
+    background-color: lightgreen;
+}
+
+#extra-padding {
+    padding: 24px;
+}
+
+#extra-margin {
+    margin: 24px;
+}
