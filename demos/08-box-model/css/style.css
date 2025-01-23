@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 30px outset sandybrown;
+    /* border-width: 40px;
+    border-style: ridge;
+    border-color:cadetblue; */
+    margin: 20px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+p {
+    border: 15px dotted cornflowerblue;
+    margin: 20px;
+    padding: 35px 25px;
+    background-color: rgb(185, 230, 230);
+    border-radius: 30px;
+}
