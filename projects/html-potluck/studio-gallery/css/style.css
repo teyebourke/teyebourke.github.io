@@ -1,0 +1,16 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+div.gerbil img {
+    border: 5px outset rgb(53, 41, 32);
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 100px;
+    margin: 60px 65px 40px;
+}
