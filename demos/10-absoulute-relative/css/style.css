@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.absoulute-heading {
+    font-size: 36px;
+}
+
+.absoulute-paragraph {
+    font-size: 18px;
+}
+
+.relative-heading {
+    font-size: 5vw;
+}
+
+.relative-paragraph {
+    font-size: 2.5vw;
+}
+
+.absoulute-image {
+    width: 350px;
+}
+
+.relative-image {
+    width: 100vw;
+}
+
+.outer-container {
+    border: 5px solid red;
+}
+
+.inner-container {
+    border: 5px solid blue;
+}
+
+.inner-container p,
+.inner-container img {
+    display: inline-block;
+    width: 48%;
+}

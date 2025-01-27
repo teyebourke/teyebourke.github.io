@@ -7,10 +7,26 @@
     Good luck, and have fun!
 */
 
-div.gerbil img {
-    border: 5px outset rgb(53, 41, 32);
+.gerbil img {
+    width: 60%;
+    margin-top: 100px;
+    border: 7px outset rgb(138, 97, 56);
     padding: 10px;
     background-color: antiquewhite;
-    width: 100px;
-    margin: 60px 65px 40px;
 }
+
+.sadhampster img {
+    width: 30%;
+    margin-top: 110px;
+    margin-right: 90px;
+    border: 7px outset rgb(138, 97, 56);
+    padding: 10px;
+    background-color: antiquewhite;
+} 
+
+.funny-rodents p {
+    width: 50%;
+    border: 7px outset rgb(138, 97, 56);
+    padding: 10px;
+    background-color: antiquewhite;
+} 
