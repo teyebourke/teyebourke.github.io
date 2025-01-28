@@ -8,25 +8,46 @@
 */
 
 .gerbil img {
-    width: 60%;
-    margin-top: 100px;
+    width: 150px;
+    margin-top: 80px;
     border: 7px outset rgb(138, 97, 56);
     padding: 10px;
     background-color: antiquewhite;
 }
 
 .sadhampster img {
-    width: 30%;
-    margin-top: 110px;
-    margin-right: 90px;
+    width: 50px;
+    margin-top: 60px;
+    border: 7px outset rgb(138, 97, 56);
+    padding: 10px;
+    background-color: antiquewhite;
+} 
+
+.flatrat img {
+    width: 50px;
+    margin-top: 10px;
     border: 7px outset rgb(138, 97, 56);
     padding: 10px;
     background-color: antiquewhite;
 } 
 
 .funny-rodents p {
-    width: 50%;
+    width: 170px;
+    margin-top: 20px;
+    font-style: italic;
     border: 7px outset rgb(138, 97, 56);
     padding: 10px;
     background-color: antiquewhite;
 } 
+
+.thatrat img {
+    width: 130px;
+    margin-top: 2px;
+    border: 7px outset rgb(138, 97, 56);
+    padding: 10px;
+    background-color: antiquewhite;
+} 
+
+.display-space {
+    border: 5px solid red;
+}
