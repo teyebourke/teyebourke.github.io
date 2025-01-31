@@ -23,7 +23,6 @@
 /* Drill 5 - Write your code solution below */
 #container-5 {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
