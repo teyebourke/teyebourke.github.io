@@ -25,7 +25,7 @@ body {
     grid-area: CA2;
 }
 
-#column-3 h2 {
+#column-3 #price{
     border-bottom: 1px solid #afafaf;
     grid-area: CA3;
 }
@@ -51,16 +51,24 @@ body {
     border-radius: 10%;
     margin-left: 225px;
     margin-top: 26px;
+    border: 2px solid #111111;
 }
 
 #column-1 #picture2 img {
+    width: 25%;
+    border-radius: 10%;
+    margin-left: 225px;
+    margin-top: 26px;
+}
+
+#column-1 #picture3 img {
     width: 25%;   
     border-radius: 10%;
     margin-left: 225px;
     margin-top: 20px;
 }
 
-#column-1 #picture3 img {
+#column-1 #picture4 img {
     width: 25%;
     border-radius: 10%;
     margin-left: 225px;
@@ -84,4 +92,58 @@ body {
 
 #column-4 h1 #y {
     color: green
+}
+
+
+#column-3 #cart a {
+    display: block;
+    border: 2px solid #4141ff;
+    border-radius: 20px;
+    color: #4141ff;
+    background-color: #eeeeee;
+    padding: 12px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#column-3 #wishlist a {
+    display: block;
+    border: 2px solid #4141ff;
+    border-radius: 20px;
+    color: #4141ff;
+    background-color: #eeeeee;
+    padding: 12px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#column-3 #buy a {
+    display: block;
+    border: 2px solid #4141ff;
+    border-radius: 20px;
+    color: #4141ff;
+    padding: 12px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#column-3 #buy a:hover {
+    color: #eeeeee;
+    border: #4141ff;
+    background-color: #4141ff;
+    text-decoration: underline;
+}
+
+#column-3 #cart a:hover {
+    color: #eeeeee;
+    border: #4141ff;
+    background-color: #4141ff;
+    text-decoration: underline;
+}
+
+#column-3 #wishlist a:hover {
+    color: #eeeeee;
+    border: #4141ff;
+    background-color: #4141ff;
+    text-decoration: underline;
 }
