@@ -1,0 +1,53 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+
+.card-style-1  {
+    max-width: 350px;
+    /* border: 2px solid red; */
+    background-color: #dceee5;
+    margin-top: 12px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.card-style-1 img {
+    width: 100%;
+}
+
+.card-style-1 p {
+    text-align: center;
+    padding: 12px;
+}
+
+.card-style-1 h2 {
+    text-align: center;
+    padding: 12px;
+}
+
+.card-style-1 a {
+    border: 3px solid green;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    color: #eeeeee;
+    background-color: green;
+    text-align: center;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.card-style-1 a:hover {
+    background-color: #EEEEEE;
+    border: 3px solid green;
+    color: green;
+}
