@@ -9,7 +9,7 @@
 */
 
 .card-style-2 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: white;
     border-radius: 30px;
     max-width: 350px;
@@ -24,7 +24,6 @@
 h2 {
     text-align: center; 
     margin: 0px auto;  
-    
 }
 
 p {
