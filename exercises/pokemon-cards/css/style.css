@@ -9,8 +9,7 @@
 */
 
 .card-style-3 {
-    border: 2px solid red;
-    background-color: white;
+    border: 12px solid #eacc06;
     padding: 12px;
     display: flex;
     flex-direction: column;
@@ -20,8 +19,9 @@
 }
 
 .card-style-3 img {
-    border: 5px solid black;
+    border: 5px solid #eacc06;
     width: 100%;
+    
 }
 
 .card-style-3 .bold {
@@ -36,4 +36,35 @@
 
 .pokemon-header h2 {
     margin-bottom: 0px;
+}
+
+.details {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    background: radial-gradient(at 45%, #ffe100, #ad9600);
+    margin-top: 6px;
+}
+
+.data {
+    border: 2px solid #eacc06;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#pokemon-card-1 {
+    background: radial-gradient(at 50%, #016201, lightgreen);
+}
+
+#pokemon-card-2 {
+    background: radial-gradient(at 50%, #016201, lightgreen);
+}
+
+#pokemon-card-3 {
+    background: radial-gradient(at 50%, #ca0505 , orange);
+}
+
+#pokemon-card-4 {
+    background: radial-gradient(at 50%, rgb(61, 163, 218), rgb(133, 225, 255));
 }
