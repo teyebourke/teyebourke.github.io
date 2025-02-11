@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url(../images/nature-1-hero.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+#hero h2 {
+    font-size: 80px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 60%;
+    position: absolute;
+    color: #94955e;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#nature {
+    columns: 3 auto;
+    column-gap: 24px;
+    
+}
+
+.nature img{
+    width: 100%;
+    margin-bottom: 24px;
+}
