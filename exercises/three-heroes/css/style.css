@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/wheat.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-1 .hero-content {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 450px;
+}
+
+#hero-1 h2 {
+    font-size: 72px;
+    margin-bottom: 12px;
+}
+
+#hero-1 h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero-1 a{
+    font-size: 14px;
+    display: inline-block;
+    background-color: #dcd99a;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+#hero-2 {
+    background-image: url("../images/Bee.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-2 .hero-content {
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 20%;
+}
+
+#hero-2 h2 {
+    font-size: 72px;
+    margin-bottom: 24px;
+}
+
+#hero-2 h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero-2 a{
+    font-size: 14px;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#hero-3 {
+    background-image: url("../images/cat.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-3 .hero-content {
+    color: #333333;
+    position: absolute;
+    bottom: 60%;
+    left: 40%;
+}
+
+#hero-3 h2 {
+    font-size: 72px;
+    margin-bottom: 24px;
+}
+
+#hero-3 h4 {
+    font-size: 24px;
+    margin-left: 63%;
+}
+
+#hero-3 a{
+    font-size: 14px;
+    display: inline-block;
+    background-color: #e3c992;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: px;
+    margin-left: 505px;
+    font-weight: bold;
+}
