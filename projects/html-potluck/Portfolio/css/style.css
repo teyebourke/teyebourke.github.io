@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {  
+    margin-left: 20%;
+    padding: 10px;
+}
+
+#navbar a {
+    color: #333333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+    font-size: 20px;
+}
+
+#navbar-column {
+    display: inline-block;
+    width: 500px;
+    margin: 0px auto;
+}
+
+#layout {
+    background-image: url(../images/urban-hi-res-1ui7.jpg);
+    margin: 0px 150px;
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    color: #eeeeee;
+    position: absolute;
+    right: 65%;
+    bottom: 25%;
+}
+
+.hero h2 {
+    font-size: 96px;
+    margin: 0px;
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hero h4 {
+    font-size: 42px;
+    margin-top: 5%;
+    margin-left: 5px;
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#gallery .layout-gallery {
+    display: block;
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#gallery {
+    margin: 0px 100px;
+    /* border: 2px solid red; */
+}
+
+.layout-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.layout-gallery img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#navbar a:hover {
+    background-color: #d6d6d6;
+    padding: 10px;
+}

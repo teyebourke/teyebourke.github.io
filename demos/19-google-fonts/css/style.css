@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+}
+
+p {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
