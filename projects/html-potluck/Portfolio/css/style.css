@@ -11,22 +11,25 @@ body {
 }
 
 #navbar {  
-    margin-left: 20%;
-    padding: 10px;
+    margin-left: 32%;
+    padding: 15px;
 }
 
 #navbar a {
-    color: #333333;
+    color: #eeeeee;
     text-decoration: none;
-    display: inline-block;
-    padding: 12px 12px 12px 0px;
     font-size: 20px;
+    margin-left: 25px;
+    padding: 15px;
+    border-radius: 10%;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
 }
 
-#navbar-column {
-    display: inline-block;
-    width: 500px;
-    margin: 0px auto;
+#navbar a:hover {
+    background-color: #c8c5c1;
+    color: #333333;
 }
 
 #layout {
@@ -72,11 +75,12 @@ body {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
+    background-color: #807e7b;
+    padding: 12px;
 }
 
 #gallery {
     margin: 0px 100px;
-    /* border: 2px solid red; */
 }
 
 .layout-gallery {
@@ -87,18 +91,71 @@ body {
 .layout-gallery img{
     width: 100%;
     margin-bottom: 24px;
+    border: 2px solid #b5afa9;
 }
 
-h3 {
-    font-size: 25px;
+h2 {
+    font-size: 40px;
     text-align: center;
     font-family: "Teko", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    color: #eeeeee;
 }
 
-#navbar a:hover {
-    background-color: #d6d6d6;
+.column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    color: #333333;
+    padding: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    background-color: #807e7b;
+    border: 4px solid #b5afa9;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.card a {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+    text-decoration: none;
+    color: #eeeeee;
+    border-radius: 10%;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.card a:hover {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+    text-decoration: none;
+    background-color: #c8c5c1;
+    color: #333333;
     padding: 10px;
+}
+
+body {
+    /* background-color: #b6bbbd; */
+    background: url(../images/tina-dawson-jAWfDKxRraI-unsplash\ \(1\).jpg)
 }
