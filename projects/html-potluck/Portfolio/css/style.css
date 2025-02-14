@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
-
 * {
     box-sizing: border-box;
 }
@@ -88,7 +87,7 @@ body {
     column-gap: 24px;
 }
 
-.layout-gallery img{
+.layout-gallery img {
     width: 100%;
     margin-bottom: 24px;
     border: 2px solid #b5afa9;
@@ -157,5 +156,5 @@ h2 {
 
 body {
     /* background-color: #b6bbbd; */
-    background: url(../images/background.jpg)
+    background: url(../images/background.jpg);
 }
