@@ -135,11 +135,8 @@ body {
     font-size: 20px;
 }
 
-
 @media screen and (max-width: 800px) {
-    /* body {
-        background-color: bisque;
-    } */
+
 
     #hero {
         background-image: url("../images/Hero.jpg");
@@ -152,7 +149,6 @@ body {
         align-items: flex-end;
     }
     
-
     #hero h3 {
         font-size: 30px;
         color: #eeeeee;
@@ -218,9 +214,6 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    /* body {
-        background-color: orange;
-    } */
 
     #navbar {
         flex-direction: column;
@@ -246,7 +239,6 @@ body {
         align-items: flex-end;
     }
     
-
     #hero h3 {
         font-size: 30px;
         color: #eeeeee;
