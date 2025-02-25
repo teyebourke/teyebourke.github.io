@@ -9,9 +9,10 @@ body {
 }
 
 #navbar {
-    background-color: #67d3af;
+    background-color: #9aceb4;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #navbar a {
@@ -26,9 +27,14 @@ body {
     color: #333333;
 }
 
+#logo {
+    width: 200px;
+    padding: 20px;
+}
+
 #hero {
     background-image: url("../images/veggie-wraps.jpg");
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     background-position: center center;
     display: flex;
