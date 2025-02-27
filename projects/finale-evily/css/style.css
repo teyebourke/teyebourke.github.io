@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    /* background-color: antiquewhite; */
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    width: 800px;
+}
+
+
+.light-container {
+    background-color: antiquewhite;
+    padding: 48px 0px;
+}
+
+.light-container #names {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.light-container h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+.light-container h2 {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    text-align: center;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+
+.card-1 img {
+    width: 250px;
+}
+
+.card-3 img {
+    margin-top: 10%;
+    width: 250px;
+}
+
+.card-3 h2 {
+    margin-top: 26%;
+}
+
+#paragraph h1 {
+    font-size: 40px;
+}
+
+#paragraph p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+#buttons .yes{
+    background-color: rgb(131, 188, 64);
+    padding: 24px;
+    border-radius: 12px;
+}
+
+#buttons .no{
+    background-color: rgb(131, 188, 64);
+    padding: 24px;
+    border-radius: 12px;
+}
+
+#buttons:hover .yes{
+    background-color: #c5ea9a;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+#buttons:hover .no{
+    background-color: #c5ea9a;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+#question h2 {
+    padding-bottom: 30px;
+}
