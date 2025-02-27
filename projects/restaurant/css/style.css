@@ -84,7 +84,6 @@ body {
 #side-by-side {
     display: flex;
     width: 1000px;
-    height: 50vh;
     text-align: center;
     background-color: #89b7a7;
     border-radius: 20px;
@@ -92,17 +91,95 @@ body {
     margin: 48px auto;
 }
 
+.image {
+    flex: 1;
+}
+
 .image img {
-    width: 50%;
-    margin-top: 60px;
-    border-radius: 20px;
+    width: 100%;
+    padding: 48px;
 }
 
 #side-by-side .text {
     margin-top: 60px;
+    flex: 1;
     font-size: 20px;
 }
 
 #side-by-side .text h3 {
     font-size: 30px;
+}
+
+.image-1 img {
+    width: 60%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #heading {
+        width: 500px;
+        height: 100vh;
+        text-align: center;
+        background-color: #89b7a7;
+        border-radius: 20px;
+        color: #eeeeee;
+        margin: 48px auto;
+        flex: 1;
+    }
+    
+    #heading h2 {
+        font-size: px;
+        padding-top: 50px;
+        margin-bottom: 150px;
+    }
+    
+    #heading h4 {
+        font-size: 35px;
+    }
+    
+    #heading h5 {
+        font-size: 30px;
+        padding: 24px;
+    }
+    
+    #featured img {
+        width: 60%;
+        border-radius: 20px;
+    }
+    
+    #featured .paragraph {
+        font-size: 24px;
+        padding: 24px;
+    }
+    
+    #featured .price {
+        margin-top: 4%;
+        font-size: 24px;
+    }
+
+    #side-by-side {
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+        background-color: #89b7a7;
+        border-radius: 20px;
+        color: #eeeeee;
+        margin: 48px auto;
+    }
+    
+    .image img {
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+    
+    #side-by-side .text {
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    
+    #side-by-side .text h3 {
+        font-size: 30px;
+    }
+    
 }
