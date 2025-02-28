@@ -115,6 +115,70 @@ body {
     border-radius: 20px;
 }
 
+#side-1 {
+    display: flex;
+    width: 1000px;
+    text-align: center;
+    background-color: #89b7a7;
+    border-radius: 20px;
+    color: #eeeeee;
+    margin: 48px auto;
+}
+
+#side-1 .text {
+    margin-top: 60px;
+    flex: 1;
+    font-size: 20px;
+}
+
+#side-1 .text h3 {
+    font-size: 30px;
+}
+
+#side-2 {
+    display: flex;
+    width: 1000px;
+    text-align: center;
+    background-color: #89b7a7;
+    border-radius: 20px;
+    color: #eeeeee;
+    margin: 48px auto;
+}
+
+#side-2 .text {
+    margin-top: 60px;
+    flex: 1;
+    font-size: 20px;
+}
+
+#side-2 .text h3 {
+    font-size: 30px;
+}
+
+#footer {
+    background: #9aceb4;
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
 @media screen and (max-width: 800px) {
 
     #heading {
